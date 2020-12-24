@@ -1,5 +1,5 @@
 import logging, time
-from multiprocessing import Pool, cpu_count
+from multiprocessing import Pool
 from transformers import BertTokenizer, BertForSequenceClassification
 import spacy, neuralcoref
 from torch import cuda

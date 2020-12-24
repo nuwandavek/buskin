@@ -1,17 +1,15 @@
-![Buskin](theater.png)
 
-<sub><sup>Icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-</sup></sub>
+<p align="center">
+    <br>
+    <img src="https://raw.githubusercontent.com/nuwandavek/buskin/master/theater.png" width="100"/>
+    <!-- <span style="font-size:100px">Buskin</span> -->
+</p>
 
-# buskin
-Buskin is a python package for analyzing various attributes of characters in fictional texts. This was developed as part of a project for the terrific [Computational Humanities](https://www.ischool.berkeley.edu/courses/info/190/ch) course at UC Berkeley. Buskin's pipeline utilizes state-of-the-art techniques in processing the text to compute the following : 
+# Buskin
 
-- Emotions (macro and micro) for each sentence (emotion classification BERT)
-- Characters, and their mention sentences (coreference resolution)
-- Patient, agent and predicatives for characters (dependency tree parsing)
-- Part-of-speech tags, for tokens in sentences
+Buskin is a python package for analyzing various attributes of characters in fictional texts. This was developed as part of a project for the terrific [Computational Humanities](https://www.ischool.berkeley.edu/courses/info/190/ch) course at UC Berkeley. Buskin's pipeline utilizes state-of-the-art techniques in processing the text (to obtain Emotions, Characters, Character Arcs, Patient-agent-predicatives, Part-of-speech tags,etc.)
 
-We hope this package will reduce the effort to get started in analyzing fictional text, and the characters within, in all their sentimentality and idiosyncrasies. Over time, we intend to add more features to the package in pursuit of that goal. Also, this is very much a work in progress. We appreciate any feedback, or contribution to the project!
+We created this package to understand character arcs from various novels, but we hope it will reduce the effort to get started in analyzing fictional text for any purpose. We hope that Buskin makes it easier to peel open any novel and the characters within, in all their idiosyncrasies. Over time, we intend to add more features to the package in pursuit of that goal. Also, this is very much a work in progress. We appreciate any feedback, or contribution to the project!
 
 > “Plot is no more than footprints left in the snow after your characters have run by on their way to incredible destinations.” ― Ray Bradbury, Zen in the Art of Writing
 
@@ -21,7 +19,7 @@ Contributors : [nuwandavek](https://github.com/nuwandavek/), [Dmacracy](https://
 
 ## Usage
 
-Buskin can be installed with Pip by : 
+Buskin needs Pytorch (>=1.4) which can be installed from [here](https://pytorch.org/get-started/locally/). Once that's done, Buskin can be installed with Pip by : 
 
 ```
 pip install buskin
@@ -142,3 +140,6 @@ Returns :
 | start | `int` | Start token ID of the occurrence |
 | end | `int` | End token ID of the occurrence |
 
+---
+
+Icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
