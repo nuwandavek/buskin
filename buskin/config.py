@@ -12,7 +12,7 @@ REDUCED_EMOTIONS = { 'admiration' : 'pos', 'amusement' : 'pos', 'anger' : 'neg',
 
 STOP_WORDS = words
 MIN_PAR_SENTENCES = 5
-
+THREADS = 5
 BATCH_SIZE = 8
 MAX_CHUNK_SIZE = 20000
 

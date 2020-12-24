@@ -33,13 +33,6 @@ class Sentence():
 
 @dataclass_json
 @dataclass
-class Book():
-    book_path : str
-    sentences : List[Sentence]
-    characters : Dict
-
-@dataclass_json
-@dataclass
 class Occurrence():
     text : str
     sentence_id : int
@@ -57,5 +50,10 @@ class Character():
     patients : List[Occurrence]
     predicatives : List[Occurrence]
 
-
+@dataclass_json
+@dataclass
+class Book():
+    book_path : str
+    sentences : List[Sentence]
+    characters : List[Character]
 
