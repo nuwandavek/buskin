@@ -1,3 +1,7 @@
+![Buskin](theater.png)
+
+<sub><sup>Icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+</sup></sub>
 
 # buskin
 Buskin is a python package for analyzing various attributes of characters in fictional texts. This was developed as part of a project for the terrific [Computational Humanities](https://www.ischool.berkeley.edu/courses/info/190/ch) course at UC Berkeley. Buskin's pipeline utilizes state-of-the-art techniques in processing the text to compute the following : 
@@ -10,6 +14,8 @@ Buskin is a python package for analyzing various attributes of characters in fic
 We hope this package will reduce the effort to get started in analyzing fictional text, and the characters within, in all their sentimentality and idiosyncrasies. Over time, we intend to add more features to the package in pursuit of that goal. Also, this is very much a work in progress. We appreciate any feedback, or contribution to the project!
 
 > “Plot is no more than footprints left in the snow after your characters have run by on their way to incredible destinations.” ― Ray Bradbury, Zen in the Art of Writing
+
+Contributors : [nuwandavek](https://github.com/nuwandavek/), [Dmacracy](https://github.com/Dmacracy/)
 
 ---
 
